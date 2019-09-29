@@ -27,3 +27,15 @@ File: `watson-nlu.json`
   "url": "https://gateway.watsonplatform.net/natural-language-understanding/api"
 }
 ```
+
+
+  /*
+    "algorithmia": "^0.3.10",
+    "express": "^4.16.4",
+    "gm": "^1.23.1",
+    "googleapis": "^38.0.0",
+    "image-downloader": "^3.4.2",
+    "readline-sync": "^1.4.9",
+    "sbd": "^1.0.14",
+    "watson-developer-cloud": "^3.18.2"
+  */
