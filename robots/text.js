@@ -14,14 +14,17 @@ const nlu = new NaturalLanguageUnderstandingV1({
 async function robot(){
     const content = state.load()
     
+    console.log('- Pegando o conteúdo na Wikipedia...')
     await fetchContentFromWikipedia(content)
+    console.log('- Limpando o conteúdo...')
     sanitizeContent(content)
+    console.log('- Quebrando o conteúdo em sentenças...')
     breakContentIntoSentences(content)
     limitMaximumSentences(content)
+    console.log('- Buscando palavras-chave de sentenças...')
     await fetchKeywordsOfAllSentences(content)
 
     state.save(content)
-    // console.log(content)
     
     async function fetchContentFromWikipedia(content){
         const algorithmiaAuthenticated = algorithmia(algorithmiaApiKey)
