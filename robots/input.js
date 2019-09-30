@@ -6,8 +6,12 @@ function robot(){
         maximumSentences: 7
     }
     
+    content.searchTerm = 'Michael Jackson'
+    content.prefix = 'Who is'
+    /*
     content.searchTerm = askAndReturnSeachTerm()
     content.prefix = askAndReturnPrefix()
+    */
     state.save(content)
     
     function askAndReturnSeachTerm(){
