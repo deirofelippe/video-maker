@@ -39,3 +39,7 @@ File: `watson-nlu.json`
     "sbd": "^1.0.14",
     "watson-developer-cloud": "^3.18.2"
   */
+
+  pegar as credenciais (google, ibm)
+  baixar o image magick
+  baixar o after effects e colocar o script na pasta
