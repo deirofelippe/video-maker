@@ -8,22 +8,22 @@ const robots = {
 }
 
 async function start(){
-    // robots.input()
-    // console.log('\nRobo Input Executado')
+    robots.input()
+    console.log('\nRobo Input Executado')
 
-    // await robots.text()
-    // console.log('\nRobo Text Executado')
+    await robots.text()
+    console.log('\nRobo Text Executado')
     
-    // await robots.image()
-    // console.log('\nRobo Image Executado')
+    await robots.image()
+    console.log('\nRobo Image Executado')
     
-    // await robots.video()
-    // console.log('\nRobo Video Executado')
+    await robots.video()
+    console.log('\nRobo Video Executado')
     
     await robots.youtube()
     console.log('\nRobo Video Executado')
 
-    // console.log('\nROBOS FINALIZADOS!')
+    console.log('\nROBOS FINALIZADOS!')
 
     // const content = robots.state.load()
     // console.dir(content, { depth: null })
